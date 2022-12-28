@@ -14,9 +14,11 @@
 4. [OPTIONAL] Install WhatPulse to measure the number of clicks and key strokes while labeling: https://whatpulse.org/
 5. Open folder `bat-3d` in PHP Storm.
 5. Move into directory: `cd bat-3d`.
-6. Download sample scenes extracted from the NuScenes dataset from [here](https://github.com/walzimmer/bat-3d/releases/download/v0.1.0/NuScenes.zip) and extract the content into the `bat-3d/input/` folder.
+6. Download sample scenes extracted from the NuScenes dataset from [here](https://github.com/walzimmer/bat-3d/releases/download/0.3.0/NuScenes.zip) and extract the content into `bat-3d/input/`.
 7. Install required packages: `npm install`
-8. Open `index.html` with chromium-browser (Linux) or Chrome (Windows) within the IDE. Right click on index.html -> Open in Browser -> Chrome/Chromium
+8. Install [http-server](https://www.npmjs.com/package/http-server): `npm install -g http-server`.
+9. Type `http-server ./` inside `bat-3d` directory.
+10. Open the web page [http://localhost:8080](http://localhost:8080) in your browser.
 
 # Overview
 ![Overview](https://github.com/walzimmer/bat-3d/blob/master/assets/img/overview.png)
